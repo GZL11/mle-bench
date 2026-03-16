@@ -247,6 +247,10 @@ catalogued below:
 - **ranzcr-clip-catheter-line-classification**: The prepare.py script results in
   missing columns in the sample submission.
   [#30](https://github.com/openai/mle-bench/issues/30)
+- **dog-breed-identification**: The MLE-bench test split is created by holding
+  out images from a publicly labeled source corpus derived from the Stanford
+  Dogs Dataset, which agents may discover and leverage.
+  [#128](https://github.com/openai/mle-bench/issues/128)
 - **invasive-species-monitoring**: The prepare.py script archives the prepared
   `train/` and `test/` directories incorrectly, so `train.7z` and `test.7z`
   can be missing their image contents in the prepared public dataset.
