@@ -5,6 +5,7 @@ Code for the paper ["MLE-Bench: Evaluating Machine Learning Agents on Machine Le
 ## Leaderboard
 | Agent | LLM(s) used | Low == Lite (%) | Medium (%) | High (%) | All (%) | Running Time (hours) | Date | Source Code Available | Grading Reports Available |
 |-------|-------------|-----------------|------------|----------|---------|----------------------|------|----------------------|---------------------------|
+| [AIBuildAI](https://github.com/aibuildai/AI-Build-AI) | Claude-Opus-4.6 |  77.27 ± 0.00 |  61.40 ± 0.88 |  46.67 ± 0.00 | 63.11 ± 0.44 | 24 | 2026-03-06 | X | ✓ |
 | [CAIR](https://research.google/teams/cloud-ai-research/) [MARS+](https://arxiv.org/pdf/2602.02660) | Gemini-3-Pro-Preview | 78.79 ± 1.52 | 60.53 ± 1.52 | 44.44 ± 2.22 | 62.67 ± 0.77 | 24 | 2026-02-17 | X | ✓ |
 | [MLEvolve](https://github.com/InternScience/MLEvolve) | Gemini-3-Pro-Preview | 80.30 ± 1.52 | 57.89 ± 1.52 | 42.22 ± 2.22 | 61.33 ± 1.33 | 12 | 2026-02-14 | ✓ | ✓ |
 | [PiEvolve](https://github.com/FractalAIResearchLabs/PiEvolve)<br>(Fractal AI Research) | Gemini-3-Pro-Preview[^4] | 80.30 ± 1.52[^3] | 58.77 ± 0.88[^3] | 40.0 ± 0.00[^3] | 61.33 ± 0.77[^3] | 24 | 2026-01-05 | X | ✓ |
